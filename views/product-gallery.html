@@ -1,0 +1,11 @@
+<!-- product gallery -->
+
+<div ng-show="product.images.length"> <!-- only show if there are images available -->
+    <img ng-src="{{ product.images[gallery.current] }}" /> <!-- same as 'this.current' in controller -->
+
+    <ul class="img-thumbnail clearfix">
+        <li class="pull-left thumbnail" ng-repeat="image in product.images">
+            <img ng-src="{{ image }}" ng-click="gallery.setCurrent($index)" style="cursor:pointer;" width="304" height="236">
+        </li>
+    </ul>
+</div>

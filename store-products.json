@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Azurite",
+    "price": 110.50,
+    "desc": "This is a good gem",
+    "specification": "Not yet",
+    "reviews": [
+      {"stars": 3, "body": "I think this gem was just ok", "author": "suraj", "createdOn": 23525235},
+      {"stars": 5, "body": "Fantastic gem", "author": "james", "createdOn": 23525235},
+      {"stars": 1, "body": "Fake gem, fuck off", "author": "john", "createdOn": 23525235}
+    ],
+    "images":[
+      "images/eiffel.jpg",
+      "images/macbook.jpg",
+      "images/oktoberfest.jpg"
+    ]
+  },
+  {
+    "name": "Super",
+    "price": 120.50,
+    "desc": "Very good super gem",
+    "specification": "Not yet",
+    "reviews": [
+      {"stars": 4, "body": "Nice one, good material but not that shinny", "author": "suraj", "createdOn": 23525235},
+      {"stars": 5, "body": "Fantastic gem", "author": "jhon mayer", "createdOn": 23525235},
+      {"stars": 1, "body": "Fake gem, fuck off", "author": "sid barret", "createdOn": 23525235}
+    ],
+    "images":[
+      "images/monalisa.jpg",
+      "images/thrones.jpg",
+      "images/room.jpg"
+    ]
+  },
+  {
+    "name": "Hero",
+    "price": 120.50,
+    "desc": "Very bad gem",
+    "specification": "Not yet",
+    "reviews": [
+      {"stars": 5, "body": "I think this gem was just ok", "author": "suraj", "createdOn": 23525235},
+      {"stars": 2, "body": "Fantastic gem", "author": "james", "createdOn": 23525235},
+      {"stars": 3, "body": "Fake gem, fuck off", "author": "john", "createdOn": 23525235}
+    ],
+    "images":[]
+  }
+]
